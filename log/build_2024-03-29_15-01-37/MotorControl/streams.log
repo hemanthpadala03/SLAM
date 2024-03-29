@@ -1,0 +1,45 @@
+[0.630s] Invoking command in '/home/hemanth/Documents/SLAM/src/MotorControl': PYTHONPATH=/home/hemanth/Documents/SLAM/build/MotorControl/prefix_override:/home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/MotorControl build --build-base /home/hemanth/Documents/SLAM/build/MotorControl/build install --record /home/hemanth/Documents/SLAM/build/MotorControl/install.log --single-version-externally-managed
+[0.775s] running egg_info
+[0.775s] creating ../../build/MotorControl/MotorControl.egg-info
+[0.785s] writing ../../build/MotorControl/MotorControl.egg-info/PKG-INFO
+[0.785s] writing dependency_links to ../../build/MotorControl/MotorControl.egg-info/dependency_links.txt
+[0.786s] writing requirements to ../../build/MotorControl/MotorControl.egg-info/requires.txt
+[0.786s] writing top-level names to ../../build/MotorControl/MotorControl.egg-info/top_level.txt
+[0.852s] writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+[0.873s] reading manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.874s] creating /home/hemanth/Documents/SLAM/build/MotorControl/build
+[0.874s] creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib
+[0.874s] creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl
+[0.874s] copying MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl
+[0.874s] running install
+[0.874s] /home/hemanth/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.874s] !!
+[0.874s] 
+[0.874s]         ********************************************************************************
+[0.874s]         Please avoid running ``setup.py`` directly.
+[0.874s]         Instead, use pypa/build, pypa/installer or other
+[0.874s]         standards-based tools.
+[0.874s] 
+[0.874s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.874s]         ********************************************************************************
+[0.874s] 
+[0.874s] !!
+[0.874s]   self.initialize_options()
+[0.877s] running install_lib
+[0.887s] creating /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl
+[0.887s] copying /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl
+[0.887s] byte-compiling /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl/__init__.py to __init__.cpython-310.pyc
+[0.887s] running install_data
+[0.898s] creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index
+[0.898s] creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index
+[0.898s] creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages
+[0.898s] copying resource/MotorControl -> /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages
+[0.898s] copying package.xml -> /home/hemanth/Documents/SLAM/install/MotorControl/share/MotorControl
+[0.898s] running install_egg_info
+[0.910s] Copying ../../build/MotorControl/MotorControl.egg-info to /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl-0.0.0-py3.10.egg-info
+[0.910s] running install_scripts
+[0.950s] writing list of installed files to '/home/hemanth/Documents/SLAM/build/MotorControl/install.log'
+[0.971s] Invoked command in '/home/hemanth/Documents/SLAM/src/MotorControl' returned '0': PYTHONPATH=/home/hemanth/Documents/SLAM/build/MotorControl/prefix_override:/home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/MotorControl build --build-base /home/hemanth/Documents/SLAM/build/MotorControl/build install --record /home/hemanth/Documents/SLAM/build/MotorControl/install.log --single-version-externally-managed

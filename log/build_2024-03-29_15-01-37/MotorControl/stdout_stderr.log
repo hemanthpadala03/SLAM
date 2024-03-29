@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/MotorControl/MotorControl.egg-info
+writing ../../build/MotorControl/MotorControl.egg-info/PKG-INFO
+writing dependency_links to ../../build/MotorControl/MotorControl.egg-info/dependency_links.txt
+writing requirements to ../../build/MotorControl/MotorControl.egg-info/requires.txt
+writing top-level names to ../../build/MotorControl/MotorControl.egg-info/top_level.txt
+writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+reading manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hemanth/Documents/SLAM/build/MotorControl/build
+creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib
+creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl
+copying MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl
+running install
+/home/hemanth/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+creating /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl
+copying /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl
+byte-compiling /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index
+creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index
+creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages
+copying resource/MotorControl -> /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages
+copying package.xml -> /home/hemanth/Documents/SLAM/install/MotorControl/share/MotorControl
+running install_egg_info
+Copying ../../build/MotorControl/MotorControl.egg-info to /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/hemanth/Documents/SLAM/build/MotorControl/install.log'

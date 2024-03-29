@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/MotorControl/MotorControl.egg-info/PKG-INFO
+../../build/MotorControl/MotorControl.egg-info/SOURCES.txt
+../../build/MotorControl/MotorControl.egg-info/dependency_links.txt
+../../build/MotorControl/MotorControl.egg-info/requires.txt
+../../build/MotorControl/MotorControl.egg-info/top_level.txt
+../../build/MotorControl/MotorControl.egg-info/zip-safe
+MotorControl/__init__.py
+resource/MotorControl
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

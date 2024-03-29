@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (MotorControl) JobQueued: {'identifier': 'MotorControl', 'dependencies': OrderedDict()}
+[0.000269] (MotorControl) JobStarted: {'identifier': 'MotorControl'}
+[0.099210] (-) TimerEvent: {}
+[0.199602] (-) TimerEvent: {}
+[0.299908] (-) TimerEvent: {}
+[0.400318] (-) TimerEvent: {}
+[0.500733] (-) TimerEvent: {}
+[0.601166] (-) TimerEvent: {}
+[0.628327] (MotorControl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/MotorControl', 'build', '--build-base', '/home/hemanth/Documents/SLAM/build/MotorControl/build', 'install', '--record', '/home/hemanth/Documents/SLAM/build/MotorControl/install.log', '--single-version-externally-managed'], 'cwd': '/home/hemanth/Documents/SLAM/src/MotorControl', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'hemanth', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hemanth', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/hemanth/Documents', 'TERM_PROGRAM_VERSION': '1.86.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'MODULES_CMD': '/usr/lib/x86_64-linux-gnu/modulecmd.tcl', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1938', 'SYSTEMD_EXEC_PID': '2183', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '16416', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hemanth', 'JOURNAL_STREAM': '8:31286', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hemanth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/lib/ccache:/home/hemanth/ardusub/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/hemanth/.local/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/hemanth/ardusub/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/hemanth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Vivobook:@/tmp/.ICE-unix/2137,unix/Vivobook:/tmp/.ICE-unix/2137', 'INVOCATION_ID': 'd7c9987ebfcc44238fedb5f6a3779489', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/hemanth/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KETHL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0843e0426f.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hemanth/Documents/SLAM/build/MotorControl', 'LOADEDMODULES': '', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hemanth/Documents/SLAM/build/MotorControl/prefix_override:/home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'MANPATH': ':', 'MODULEPATH': '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles', 'MODULESHOME': '/usr/share/modules'}, 'shell': False}
+[0.701400] (-) TimerEvent: {}
+[0.774964] (MotorControl) StdoutLine: {'line': b'running egg_info\n'}
+[0.775279] (MotorControl) StdoutLine: {'line': b'creating ../../build/MotorControl/MotorControl.egg-info\n'}
+[0.785191] (MotorControl) StdoutLine: {'line': b'writing ../../build/MotorControl/MotorControl.egg-info/PKG-INFO\n'}
+[0.785500] (MotorControl) StdoutLine: {'line': b'writing dependency_links to ../../build/MotorControl/MotorControl.egg-info/dependency_links.txt\n'}
+[0.785698] (MotorControl) StdoutLine: {'line': b'writing requirements to ../../build/MotorControl/MotorControl.egg-info/requires.txt\n'}
+[0.785810] (MotorControl) StdoutLine: {'line': b'writing top-level names to ../../build/MotorControl/MotorControl.egg-info/top_level.txt\n'}
+[0.801469] (-) TimerEvent: {}
+[0.852582] (MotorControl) StdoutLine: {'line': b"writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'\n"}
+[0.873035] (MotorControl) StdoutLine: {'line': b"reading manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'\n"}
+[0.873286] (MotorControl) StdoutLine: {'line': b"writing manifest file '../../build/MotorControl/MotorControl.egg-info/SOURCES.txt'\n"}
+[0.873512] (MotorControl) StdoutLine: {'line': b'running build\n'}
+[0.873707] (MotorControl) StdoutLine: {'line': b'running build_py\n'}
+[0.873750] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/build/MotorControl/build\n'}
+[0.873793] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib\n'}
+[0.873826] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl\n'}
+[0.873859] (MotorControl) StdoutLine: {'line': b'copying MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl\n'}
+[0.873891] (MotorControl) StdoutLine: {'line': b'running install\n'}
+[0.874010] (MotorControl) StderrLine: {'line': b'/home/hemanth/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.874104] (MotorControl) StderrLine: {'line': b'!!\n'}
+[0.874144] (MotorControl) StderrLine: {'line': b'\n'}
+[0.874181] (MotorControl) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.874214] (MotorControl) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.874244] (MotorControl) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.874276] (MotorControl) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.874310] (MotorControl) StderrLine: {'line': b'\n'}
+[0.874343] (MotorControl) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.874373] (MotorControl) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.874404] (MotorControl) StderrLine: {'line': b'\n'}
+[0.874435] (MotorControl) StderrLine: {'line': b'!!\n'}
+[0.874465] (MotorControl) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.877406] (MotorControl) StdoutLine: {'line': b'running install_lib\n'}
+[0.886948] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl\n'}
+[0.887150] (MotorControl) StdoutLine: {'line': b'copying /home/hemanth/Documents/SLAM/build/MotorControl/build/lib/MotorControl/__init__.py -> /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl\n'}
+[0.887272] (MotorControl) StdoutLine: {'line': b'byte-compiling /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl/__init__.py to __init__.cpython-310.pyc\n'}
+[0.887675] (MotorControl) StdoutLine: {'line': b'running install_data\n'}
+[0.897857] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index\n'}
+[0.898035] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index\n'}
+[0.898075] (MotorControl) StdoutLine: {'line': b'creating /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages\n'}
+[0.898156] (MotorControl) StdoutLine: {'line': b'copying resource/MotorControl -> /home/hemanth/Documents/SLAM/install/MotorControl/share/ament_index/resource_index/packages\n'}
+[0.898193] (MotorControl) StdoutLine: {'line': b'copying package.xml -> /home/hemanth/Documents/SLAM/install/MotorControl/share/MotorControl\n'}
+[0.898224] (MotorControl) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.901530] (-) TimerEvent: {}
+[0.909899] (MotorControl) StdoutLine: {'line': b'Copying ../../build/MotorControl/MotorControl.egg-info to /home/hemanth/Documents/SLAM/install/MotorControl/lib/python3.10/site-packages/MotorControl-0.0.0-py3.10.egg-info\n'}
+[0.910597] (MotorControl) StdoutLine: {'line': b'running install_scripts\n'}
+[0.949818] (MotorControl) StdoutLine: {'line': b"writing list of installed files to '/home/hemanth/Documents/SLAM/build/MotorControl/install.log'\n"}
+[0.971212] (MotorControl) CommandEnded: {'returncode': 0}
+[1.001636] (-) TimerEvent: {}
+[1.012441] (MotorControl) JobEnded: {'identifier': 'MotorControl', 'rc': 0}
+[1.013126] (-) EventReactorShutdown: {}
